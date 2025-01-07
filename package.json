@@ -1,0 +1,24 @@
+{
+  "name": "car-renting-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "moment": "^2.30.1",
+    "nanoid": "^5.0.9",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "author": "Bahriddin",
+  "license": "ISC",
+  "description": ""
+}
