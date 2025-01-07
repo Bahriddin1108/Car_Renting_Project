@@ -1,0 +1,33 @@
+exports.car=(sequelize,Sequelize)=>{
+    const Car=sequelize.define('Car',{
+        id:{
+            type:Sequelize.INTEGER,
+            allowNUll:false,
+            primaryKey:true
+        },
+        make:{
+            type:Sequelize.STRING(),
+            allowNUll:false,
+            },
+        model:{
+            type:Sequelize.STRING(),
+            allowNUll:false,
+            },
+        year:{
+            type:Sequelize.INTEGER,
+            allowNUll:false,
+            },
+        pricePerDay:{
+            type:Sequelize.FLOAT,
+            allowNUll:false,
+        },
+        availabilityStatus:{
+            type:Sequelize.INTEGER,
+            allowNUll:false,
+        },
+    },{
+        timeStamps:true
+    }
+)
+return Car
+}
